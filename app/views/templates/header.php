@@ -27,14 +27,16 @@
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Master
+            Menu Utama
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item"  href="<?= BASE_URL; ?>/dashboard/index">Dashboard</a></li>
             <li><a class="dropdown-item"  href="<?= BASE_URL; ?>/akses/index">Hak Akses</a></li>
             <li><a class="dropdown-item"  href="<?= BASE_URL; ?>/pengguna/index">Pengguna</a></li>
             <li><a class="dropdown-item" href="<?= BASE_URL; ?>/barang/index">Barang</a></li>
             <li><a class="dropdown-item" href="<?= BASE_URL; ?>/supplier/index">Supplier</a></li>
             <li><a class="dropdown-item" href="<?= BASE_URL; ?>/pelanggan/index">Pelanggan</a></li>
+            <li><a class="dropdown-item" href="<?= BASE_URL; ?>/credits/index">Credits</a></li>
           </ul>
         </li>
         <li class="nav-item dropdown">
